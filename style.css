@@ -1,8 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 body {
-    font-family: 'MedievalSharp', cursive;
-    background-color: #f0f0f0;
-    margin: 0;
+    font-family: 'Google Sans', sans-serif;
+    background-color: #0F0A07;
+    margin: 0 auto;
     padding: 0;
+    max-width: 800px;
+    color: #CF9A67;
+}
+
+h1 {
+    color: #CF9A67;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #CF9A67;
+    margin: 20px 0;
+}
+
+#introduction{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#htIntroduction{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+    float: right;    
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #CF9A67;
+}
+
+.footer-text p {
+  margin: 0 0 10px;
+}
+
+.footer-text a {
+  color: #CF9A67;
 }
