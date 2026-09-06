@@ -79,7 +79,7 @@ footer hr {
 }
 
 .button{
-    display: inline-block;
+    display: block;
     color: #CF9A67;
     background-color: #2c251c;
     border: 1px solid #CF9A67;
@@ -101,7 +101,7 @@ footer hr {
 }
 
 #cameraButton { 
-    display:block;
+    display: block;
     float: center; 
     margin: 0 auto; 
     text-decoration: none;
