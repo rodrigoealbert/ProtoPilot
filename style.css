@@ -79,12 +79,40 @@ footer hr {
 }
 
 .button{
-    background-color: #2c251c;
+    display: inline-block;
     color: #CF9A67;
-    border: 0px;
+    background-color: #2c251c;
+    border: 1px solid #CF9A67;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 1s ease;
+}
+.button:hover {
+    background-color: #CF9A67;
+    color: #2c251c;
+}
 
+#cameraAllow { 
+    display:block;
+    float: center;
+    margin: 0 auto;
 }
 
 #cameraButton { 
-    float: center;
+    display:block;
+    float: center; 
+    margin: 0 auto; 
+    text-decoration: none;
+}
+
+.handTrackingPage{
+  canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+    background-color: #fff;
+  }
 }
