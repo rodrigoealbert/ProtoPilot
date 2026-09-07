@@ -88,6 +88,7 @@ footer hr {
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color 1s ease;
+    text-align: center;
 }
 .button:hover {
     background-color: #CF9A67;
@@ -105,6 +106,12 @@ footer hr {
     float: center; 
     margin: 0 auto; 
     text-decoration: none;
+    width: 160px;
+}
+
+#backButton { 
+  display: block;
+  width: 250px;
 }
 
 .handTrackingPage{
