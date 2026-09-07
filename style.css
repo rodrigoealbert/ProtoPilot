@@ -123,3 +123,9 @@ footer hr {
     background-color: #fff;
   }
 }
+
+#hTVIDEO{
+  display: block;
+  float: center;
+  border: #CF9A67  1px solid;
+}
