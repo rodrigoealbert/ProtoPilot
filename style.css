@@ -122,8 +122,9 @@ footer hr {
 }
 
 #cameraCanvas {
-    width: min(90vw,720px);
-    margin: 2rem auto;
+position: relative;
+width: min(90vw, 720px);
+margin: 2rem auto;
 }
 
 #cameraCanvas video {
@@ -131,3 +132,4 @@ footer hr {
   width: 100%;
   height: auto;
 }
+
