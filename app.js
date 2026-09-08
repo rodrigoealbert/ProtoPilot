@@ -32,10 +32,12 @@ function cameraRequest() {
             }
 
             videoElement.srcObject = stream;
-            cameraRequested();
+            cameraStatusH.textContent = "Camera On"
+            console.log("Camera Working");
         })
         .catch(function (err) {
             console.error("Error accessing camera:", err);
+            cameraStatusH.textContent = "Error accessing camera";
         });
 }
 
