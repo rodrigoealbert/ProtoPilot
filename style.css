@@ -114,19 +114,20 @@ footer hr {
   width: 250px;
 }
 
-.handTrackingPage{
-  canvas {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px;
-    height: auto;
-    background-color: #fff;
-  }
-}
-
 #video{
   display: flex;
   justify-content: center;
   align-items: center;
   border: #CF9A67  1px solid;
+}
+
+#cameraCanvas {
+    width: min(90vw,720px);
+    margin: 2rem auto;
+}
+
+#cameraCanvas video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
